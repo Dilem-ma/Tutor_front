@@ -1,0 +1,141 @@
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+#login {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.35;
+}
+
+.login_bg {
+    background: url("../img/bg.jpg") no-repeat;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    margin: 25% auto;
+    width: 50%;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+form {
+    width: 80%;
+    margin: 5em auto;
+    text-align: left;
+}
+
+form div.userName, form div.passWord {
+    padding: 3.5% 0 4% 0;
+    height: 3em;
+    line-height: 3em;
+}
+
+.pic_icon {
+    height: 2.5em;
+    width: auto;
+    line-height: 2.5em;
+    color: #ffffff;
+}
+
+form div.userName input, form div.passWord input {
+    margin-left: 1em;
+    width: 68%;
+    height: 3em;
+    line-height: 3em;
+    border: none;
+    background: transparent;
+    font-size: 1em;
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding-left: 2px;
+    font-weight: 200;
+    vertical-align:middle;
+}
+
+.choose_box {
+    height: 4.5em;
+    line-height: 4.5em;
+}
+
+.choose_box div {
+    float: left;
+}
+
+.choose_box a {
+    float: right;
+}
+
+.login_btn {
+    margin-top: 1.5em;
+    background: transparent;
+    width: 100%;
+    height: 2.7em;
+    display: block;
+    padding: 3% 0;
+    border: #ffffff 1px solid;
+    font-size: 1.3em;
+    font-family: "YouYuan";
+    color: #fff;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.forget_pwd {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.shortcut {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.reg {
+    text-align: center;
+    position: fixed;
+    background: #ffffff;
+    font-family: "Microsoft YaHei";
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    bottom: 0;
+}
